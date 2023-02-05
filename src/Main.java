@@ -8,5 +8,11 @@ public class Main {
                         case 3 -> "Tim";
                         case 4 -> "Harry";
                         case 5 -> "Lisa";
+                        default -> "Anonymous";
+                    },
+                    "05/11/1985",
+                    "Java Masterclass");
+            System.out.println(s);
+        }
     }
 }
