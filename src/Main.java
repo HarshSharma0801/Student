@@ -20,6 +20,8 @@ public class Main {
                 "Java Masterclass");
         System.out.println(pojoStudent);
         System.out.println(recoredStudent);
+        System.out.println(pojoStudent.getName()+" is taking "+pojoStudent.getClassList());
+        System.out.println(recoredStudent.name()+" is taking "+recoredStudent.classList());
 
 
 
